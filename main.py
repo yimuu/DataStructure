@@ -6,6 +6,8 @@ s = Service("chromedriver.exe")
 driver = webdriver.Chrome(service=s)
 driver.get('http://www.cuishuai.cc/game/')
 
+def test():
+    print("test")
 
 def main():
     sleep(0.5)
